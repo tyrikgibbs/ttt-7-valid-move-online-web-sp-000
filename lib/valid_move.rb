@@ -1,9 +1,9 @@
 # code your #valid_move? method here
 def valid_move? (board,index)
   if board[index].to_i.between?(1,9) == true && position_taken?
-    return true
-  else
     return false
+  else
+    return true
   end
 end
 
